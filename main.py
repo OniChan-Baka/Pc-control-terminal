@@ -7,7 +7,7 @@ def getinput():
     return input(">")
 
 
-def checkIfRunning(a) -> str:
+def checkIfRunning(a) -> None:
     try:
         Pymem(a+".exe")
     except:
