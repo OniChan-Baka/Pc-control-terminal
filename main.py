@@ -1,6 +1,7 @@
 from location import *
 from subprocess import Popen
 from pymem import Pymem
+import wikipedia
 
 
 def getinput():
